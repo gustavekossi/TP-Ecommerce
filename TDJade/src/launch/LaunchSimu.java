@@ -22,6 +22,7 @@ public class LaunchSimu {
 		jadeArgs[1] = sbAgents.toString();
 
 		jade.Boot.main(jadeArgs);
+		System.out.println("test 1");
 	}
 
 }
