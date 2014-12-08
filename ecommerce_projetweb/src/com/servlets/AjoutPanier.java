@@ -24,6 +24,7 @@ import ecommerce.composant.article.itf.ComposantArticleItf;
 /**
  * AjouterPanier ajouter les articles dans le panier
  */
+
 @WebServlet("/ajoutPanier")
 public class AjoutPanier extends HttpServlet {
 	private static final long serialVersionUID = 1L;
@@ -58,9 +59,6 @@ public class AjoutPanier extends HttpServlet {
 		session.setAttribute("panier",panier);
 		RequestDispatcher requestDisp=getServletContext().getRequestDispatcher("/initServlet");
     	requestDisp.forward(request, response);
-    	
-		
-		
 	}
 
 	/**
@@ -68,6 +66,7 @@ public class AjoutPanier extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// aller dans ton composant article recuperer liste des articles
+		
 	}
 
 }

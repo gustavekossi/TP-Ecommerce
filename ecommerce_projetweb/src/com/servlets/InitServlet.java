@@ -42,14 +42,9 @@ public class InitServlet extends HttpServlet {
 		// aller dans ton composant article recuperer liste des articles
 				ArrayList<Articles> listArticles= (ArrayList<Articles>) composantArticleItf.listerArticles();
 				
-				
 		        RequestDispatcher requestDisp=getServletContext().getRequestDispatcher("/afficherProduits.jsp");
 		    	request.setAttribute("listeArticle", listArticles);
 		    	requestDisp.forward(request, response);
-		    	
-		    	
-		    	
-		    	
 			}
 
 	/**
