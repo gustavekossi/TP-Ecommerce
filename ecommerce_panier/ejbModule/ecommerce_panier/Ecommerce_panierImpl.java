@@ -27,9 +27,37 @@ public class Ecommerce_panierImpl implements Ecommerce_PanierItf{
 	}
 
 	@Override
-	public void checkOut() {
+	public ProduitPanier ajouterProduit(ProduitPanier ppanier) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public ProduitPanier supprimerProduit(ProduitPanier ppanier) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public float retournerTotal() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public void vider() {
 		// TODO Auto-generated method stub
 		
 	}
+
+	@Override
+	public List<ProduitPanier> listerProduits() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	
+
+	
 
 }
