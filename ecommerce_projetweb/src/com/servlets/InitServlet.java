@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.persistance.Articles;
+//import com.persistance.Articles;
 
 import ecommerce.composant.article.itf.ComposantArticleItf;
 
@@ -40,10 +40,11 @@ public class InitServlet extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// aller dans ton composant article recuperer liste des articles
-				ArrayList<Articles> listArticles= (ArrayList<Articles>) composantArticleItf.listerArticles();
+		
+//				ArrayList<Articles> listArticles= (ArrayList<Articles>) composantArticleItf.listerArticles();
 				
-		        RequestDispatcher requestDisp=getServletContext().getRequestDispatcher("/afficherProduits.jsp");
-		    	request.setAttribute("listeArticle", listArticles);
+		        RequestDispatcher requestDisp=getServletContext().getRequestDispatcher("/main.jsp");
+//		    	request.setAttribute("listeArticle", listArticles);
 		    	requestDisp.forward(request, response);
 			}
 

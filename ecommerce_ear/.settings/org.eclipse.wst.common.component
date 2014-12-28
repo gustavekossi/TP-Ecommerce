@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
     <wb-module deploy-name="ecommerce_earproject">
         <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
-        <dependent-module archiveName="ecommerce_persistence.jar" deploy-path="/lib" handle="module:/resource/ecommerce_persistence/ecommerce_persistence">
+        <dependent-module archiveName="projet-jpa.jar" deploy-path="/lib" handle="module:/resource/projet-jpa/projet-jpa">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="ecommerce_projetWeb.war" deploy-path="/" handle="module:/resource/ecommerce_projetweb/ecommerce_projetweb">
+        <dependent-module archiveName="ecommerce_gestionProduit.jar" deploy-path="/" handle="module:/resource/ecommerce_gestionProduit/ecommerce_gestionProduit">
             <dependent-object/>
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="ecommerce_composantArticle.jar" deploy-path="/" handle="module:/resource/ecommerce_composantArticle/ecommerce_composantArticle">
+        <dependent-module archiveName="Groupe3TNSI.war" deploy-path="/" handle="module:/resource/Groupe3TNSI/Groupe3TNSI">
             <dependent-object/>
             <dependency-type>uses</dependency-type>
         </dependent-module>

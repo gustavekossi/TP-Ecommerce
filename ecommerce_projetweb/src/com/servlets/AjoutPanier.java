@@ -15,7 +15,7 @@ import javax.servlet.http.HttpSession;
 import beanUtils.ItemPanierBean;
 import beanUtils.PanierBean;
 
-import com.persistance.Articles;
+//import com.persistance.Articles;
 
 import ecommerce.composant.article.itf.ComposantArticleItf;
 

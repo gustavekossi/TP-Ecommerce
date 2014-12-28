@@ -2,12 +2,13 @@
 <application xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/application_7.xsd" version="7">
   <display-name>ecommerce_ear</display-name>
   <module>
-    <web>
-      <web-uri>ecommerce_projetWeb.war</web-uri>
-      <context-root>projetEcommerce</context-root>
-    </web>
+    <ejb>ecommerce_gestionProduit.jar</ejb>
   </module>
   <module>
-    <ejb>ecommerce_composantArticle.jar</ejb>
+    <web>
+		<!--      projet web -->
+      <web-uri>Groupe3TNSI.war</web-uri>
+      <context-root>Groupe3TNSI</context-root>
+    </web>
   </module>
 </application>

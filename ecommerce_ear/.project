@@ -3,9 +3,9 @@
 	<name>ecommerce_ear</name>
 	<comment></comment>
 	<projects>
-		<project>ecommerce_persistence</project>
-		<project>ecommerce_projetweb</project>
-		<project>ecommerce_composantArticle</project>
+		<project>projet-jpa</project>
+		<project>ecommerce_gestionProduit</project>
+		<project>Groupe3TNSI</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

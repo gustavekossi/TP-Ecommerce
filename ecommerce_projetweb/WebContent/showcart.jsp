@@ -1,6 +1,6 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%-- <%@ taglib uri="http://java.sun.com/jsf/core" prefix="f" %> --%>
-<%-- <%@ taglib uri="http://java.sun.com/jsf/html" prefix="h" %> --%>
+<%@ taglib uri="http://java.sun.com/jsf/html" prefix="h" %>
 
 
 <META http-equiv="Content-type" content="text/html; charset=UTF-8">
@@ -18,6 +18,7 @@
     <div id="header">
         <div class="panel">
             <%@ include file="common/header.jspf" %>
+				divheader
         </div>
     </div>
 
@@ -47,13 +48,13 @@
 
 
                     <h:form>
-                        <%--<h:dataTable value="#{cart.content.cartItems}" var="cartItem">--%>
+<%--                         <h:dataTable value="#{cart.content.cartItems}" var="cartItem"> --%>
                         <h:dataTable value="#{cart.cartItems}" var="cartItem">
                             <h:column>
                                 <h:outputText value="#{cartItem.item.product.name}"/>
                                 <br/>
                                 <h:commandLink action="#{catalog.doFindItem}">
-                                    <h:outputText value="#{cartItem.item.name}"/>
+<%--                                     <h:outputText value="#{cartItem.item.name}"/> --%>
                                     <f:param name="itemId" value="#{cartItem.item.id}"/>
                                 </h:commandLink>
                             </h:column>
@@ -105,7 +106,7 @@
         <%--FOOTER--%>
     <div id="footer">
         <div class="panel">
-            <%@ include file="common/footer.jspf" %>
+<%--             <%@ include file="common/footer.jspf" %> --%>
         </div>
     </div>
 
