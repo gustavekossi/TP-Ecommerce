@@ -6,7 +6,7 @@
   </module>
   <module>
     <web>
-		<!--      projet web -->
+		<!--      projet web   -->
       <web-uri>Groupe3TNSI.war</web-uri>
       <context-root>Groupe3TNSI</context-root>
     </web>
